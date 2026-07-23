@@ -16,11 +16,22 @@ latest_posts:
   limit: 3
 ---
 
-# 变构飞行与控制实验室
-
-**Variable-Configuration, Embodied Control and Trajectory Optimization Research Laboratory**
-
-**VECTOR Lab**
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.75rem; margin: 0.5rem 0 2.25rem;">
+  <div style="flex: 0 1 220px; max-width: 220px; padding: 0.5rem; background: #ffffff; border-radius: 14px;">
+    <img
+      src="{{ '/assets/img/vector-lab-logo.png' | relative_url }}"
+      alt="VECTOR Lab 实验室标志"
+      style="display: block; width: 100%; height: auto;"
+    >
+  </div>
+  <div style="flex: 1 1 420px;">
+    <h1 style="margin: 0 0 0.65rem;">变构飞行与控制实验室</h1>
+    <p style="margin: 0 0 0.4rem; line-height: 1.55;">
+      <strong>Variable-Configuration, Embodied Control and Trajectory Optimization Research Laboratory</strong>
+    </p>
+    <p style="margin: 0; color: #1675b8; font-size: 1.35rem; font-weight: 700;">VECTOR Lab</p>
+  </div>
+</div>
 
 变构飞行与控制实验室（VECTOR Lab）依托西北工业大学航空学院，面向新型航空器与无人系统自主化、智能化和集群化发展的重大需求，研究复杂动态环境下飞行器构型演化、智能决策与安全控制的基础理论和关键技术。
 
@@ -39,8 +50,27 @@ latest_posts:
 
 ## 实验室负责人
 
-**王斑，长聘副教授**  
-西北工业大学航空学院
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1.5rem; margin: 1rem 0 2rem; padding: 1.35rem; border: 1px solid rgba(128, 128, 128, 0.25); border-radius: 16px;">
+  <div style="flex: 0 0 160px;">
+    <img
+      src="{{ '/assets/img/wang-ban.png' | relative_url }}"
+      alt="实验室负责人王斑老师"
+      style="display: block; width: 160px; height: 200px; object-fit: cover; border-radius: 12px;"
+    >
+  </div>
+  <div style="flex: 1 1 280px;">
+    <h3 style="margin-top: 0; margin-bottom: 0.4rem;">王斑</h3>
+    <p style="margin: 0 0 0.35rem;"><strong>长聘副教授</strong></p>
+    <p style="margin: 0 0 0.9rem;">西北工业大学航空学院</p>
+    <p style="margin: 0 0 0.35rem;">
+      <strong>邮箱：</strong>
+      <a href="mailto:wangban@nwpu.edu.cn">wangban@nwpu.edu.cn</a>
+    </p>
+    <p style="margin: 0;">
+      <a href="https://teacher.nwpu.edu.cn/wangban.html" target="_blank" rel="noopener noreferrer">西北工业大学教师个人主页</a>
+    </p>
+  </div>
+</div>
 
 ## 加入我们
 
