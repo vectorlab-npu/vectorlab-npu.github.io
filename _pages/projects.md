@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
+title: 科研项目
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 实验室承担及参与的科研项目。
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
