@@ -1,8 +1,7 @@
 ---
-layout: about
+layout: default
 title: 首页
 permalink: /
-subtitle: 西北工业大学航空学院
 profile: false
 selected_papers: false
 social: false
