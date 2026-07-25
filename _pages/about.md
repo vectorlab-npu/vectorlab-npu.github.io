@@ -84,3 +84,20 @@ latest_posts:
 - **所属单位：** 西北工业大学航空学院
 - **办公地址：** 陕西省西安市友谊西路127号，西北工业大学航空楼
 - **电子邮箱：** [wangban@nwpu.edu.cn](mailto:wangban@nwpu.edu.cn)
+
+## 关注公众号
+
+欢迎关注 VECTOR Lab 实验室微信公众号，了解实验室最新科研进展、学术活动与招生信息。
+
+<figure style="width: min(100%, 300px); margin: 1rem auto 0; text-align: center;">
+  <img
+    src="{{ '/assets/img/vector-lab-wechat-qr.jpg' | relative_url }}"
+    alt="VECTOR Lab 实验室微信公众号二维码"
+    loading="lazy"
+    decoding="async"
+    style="display: block; width: 100%; height: auto; border-radius: 12px;"
+  >
+  <figcaption style="margin-top: 0.65rem; color: var(--global-text-color-light);">
+    微信扫码关注 VECTOR Lab
+  </figcaption>
+</figure>
