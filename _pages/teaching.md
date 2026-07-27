@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: 教学工作
 description: 课程教学、人才培养与教学资源。
-nav: true
+nav: false
 nav_order: 3
 calendar: true
 ---
