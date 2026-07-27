@@ -11,12 +11,7 @@
     }
 
     .navbar-brand {
-      flex: 0 0 auto;
-      max-width: 7.5rem;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      font-size: 0.9rem;
+      display: none !important;
     }
 
     .navbar-collapse-main {
@@ -24,17 +19,16 @@
       flex-basis: auto;
       flex-grow: 1;
       min-width: 0;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      scrollbar-width: thin;
+      overflow: visible;
     }
 
     .navbar-menu-list {
       align-items: center !important;
       flex-direction: row !important;
       flex-wrap: nowrap !important;
-      width: max-content !important;
+      width: 100% !important;
       margin-left: 0 !important;
+      justify-content: space-around !important;
     }
 
     .nav-item,
@@ -43,9 +37,17 @@
     }
 
     .nav-link {
-      padding: 0.55rem 0.45rem;
+      padding: 0.55rem 0.2rem;
       white-space: nowrap;
-      font-size: 0.86rem;
+      font-size: 0.78rem;
+    }
+
+    #search-toggle {
+      display: none !important;
+    }
+
+    .toggle-container {
+      display: none !important;
     }
   }
 }
