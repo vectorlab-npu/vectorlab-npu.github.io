@@ -5,7 +5,7 @@ permalink: /projects/
 description: 实验室承担及参与的科研项目。
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: false
 horizontal: false
 ---
 
