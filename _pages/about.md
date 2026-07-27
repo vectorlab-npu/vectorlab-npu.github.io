@@ -102,4 +102,4 @@ latest_posts:
   </figcaption>
 </figure>
 
-<!-- Rebuild marker: restores the theme-owned responsive navigation assets. -->
+<!-- Rebuild marker: publishes the default responsive navigation assets. -->
