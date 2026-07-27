@@ -101,3 +101,5 @@ latest_posts:
     微信扫码关注 VECTOR Lab
   </figcaption>
 </figure>
+
+<!-- Rebuild marker: restores the theme-owned responsive navigation assets. -->
