@@ -9,7 +9,7 @@ nav_order: 1
 
 <!-- _pages/publications.md -->
 
-代表性期刊论文如下。如需获取完整论文列表，请点击https://scholar.google.com/citations?user=pRjl44sAAAAJ&hl=en
+代表性期刊论文如下。如需获取完整论文列表，请访问 [Google Scholar](https://scholar.google.com/citations?user=pRjl44sAAAAJ&hl=en)。
 
 <style>
   .publications .author em {
