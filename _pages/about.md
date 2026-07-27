@@ -18,7 +18,7 @@ latest_posts:
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.75rem; margin: 0.5rem 0 2.25rem;">
   <div style="flex: 0 1 220px; max-width: 220px; padding: 0.5rem; background: #ffffff; border-radius: 14px;">
     <img
-      src="{{ '/assets/img/vector-lab-logo.png' | relative_url }}"
+      src="{{ '/assets/img/vector-lab-logo1.jpg' | relative_url }}"
       alt="VECTOR Lab 实验室标志"
       style="display: block; width: 100%; height: auto;"
     >
