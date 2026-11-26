@@ -1,11 +1,14 @@
 ---
 layout: page
+translation: /en/projects/uav_formation_control/
 title: 无人机编队鲁棒控制
 description: 面向突发飞行事件的消费级无人机编队可靠性增强
 img: assets/img/projects/uav-formation-control-title.png
 importance: 1
 category: work
 ---
+
+{% include lab-language.liquid lang='en' %}
 
 ## 项目概述
 

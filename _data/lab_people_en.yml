@@ -1,0 +1,121 @@
+- title: "Faculty and Staff"
+  members:
+    - name: Ban Wang
+      image: wang-ban.png
+      role: "Tenured Associate Professor · PhD Supervisor"
+      summary: >-
+        Holds a PhD in engineering from Concordia University, Canada. His research focuses on reconfigurable aircraft flight and control.
+      bio: >-
+        Has led 10 national research projects, including projects funded by the National Natural Science Foundation of China. He has published over 60 papers in journals including IEEE TIE, TAES, MSSP, and AST, and authored three monographs and two textbooks. His research covers resilient control, safe guidance, and engineering validation for reconfigurable VTOL UAVs.
+    - name: Ke Zhao
+      image: zhao-yi.png
+      role: "Associate Research Fellow · Master's Supervisor"
+      summary: >-
+        Holds a PhD in engineering and works in the School of Aeronautics at Northwestern Polytechnical University. His research includes aircraft conceptual design, aerodynamic design and multidisciplinary optimization, computational fluid dynamics, and active flow control.
+      bio: >-
+        Serves as chief engineer on an eVTOL project and has contributed to several major national aircraft development programs. He has extensive engineering design experience and has published over 30 academic papers.
+    - name: Li Tian
+      image: tian-li.png
+      role: "Lab Engineer"
+      summary: >-
+        Works on aircraft systems design and flight control, including the development, simulation, fabrication, and flight testing of multiple rotor-wing UAVs.
+      bio: >-
+        His experience includes aircraft architecture, flight-control algorithms, project coordination, and flight tests. He works with CATIA 3D modeling, flight dynamics modeling, and flight-control software in MATLAB and C/C++.
+
+- title: "PhD Students"
+  members:
+    - name: Huimin Zhao
+      image: zhao-huimin.jpeg
+      role: "PhD Student · 2024 Intake"
+      summary: >-
+        Studies advanced UAV control, including prescribed performance control, finite-, fixed-, and prescribed-time control, fault-tolerant control, and coordination among multiple actuators.
+      bio: >-
+        From Dezhou, Shandong. She earned a bachelor's degree in engineering in aircraft design and engineering from Shenyang Aerospace University in 2021 and a master's degree in mechanical engineering from Northwestern Polytechnical University in 2024. She is pursuing a PhD in aeronautical and astronautical science and technology at Northwestern Polytechnical University, focusing on tracking accuracy, dynamic response, and operational safety and reliability in complex flight conditions.
+    - name: Yifang Fu
+      image: fu-yifang.jpeg
+      role: "PhD Student · 2025 Intake"
+      summary: >-
+        Develops and validates safe guidance and control methods for reconfigurable VTOL aircraft. He has published six journal and conference papers and has six patents granted or accepted for processing.
+      bio: >-
+        Graduated in 2023 from the School of Aeronautics at Northwestern Polytechnical University with an undergraduate degree in aircraft control and information engineering. He is a member of the Communist Party of China. He led a key graduate innovation fund project and contributed to several national research projects. He reviews for Aerospace Science and Technology, ISA Transactions, and IEEE TAES and served as a session co-chair for AIM 2026. His honors include national innovation and entrepreneurship competition awards and the National Scholarship for Graduate Students.
+    - name: Yanqin Wang
+      image: wang-yanqin.jpeg
+      role: "PhD Student · 2025 Intake"
+      summary: >-
+        Studies advanced and intelligent control for autonomous carrier landings, including intelligent landing control, prescribed performance control, and safe control in time-varying environments.
+      bio: >-
+        Earned a bachelor's degree in automation from the School of Electronics and Control Engineering at Chang'an University in 2022 and a master's degree in armament engineering from the School of Energy and Power Engineering at Nanjing University of Science and Technology in 2025.
+    - name: Shengli Liu
+      image: liu-shengli.png
+      role: "Direct-entry PhD Student · 2026 Intake"
+      summary: >-
+        Studies intelligent swarm control for VTOL aircraft.
+      bio: >-
+        Earned an undergraduate degree in aircraft control and information engineering from the School of Aeronautics at Northwestern Polytechnical University in 2026.
+    - name: Xinya Guo
+      image: guo-xinya.jpeg
+      role: "Direct-entry PhD Student · 2026 Intake"
+      summary: >-
+        Studies intelligent control of multi-axis tilting VTOL aircraft.
+      bio: >-
+        Earned an undergraduate degree in aircraft design and engineering from the School of Aeronautics at Northwestern Polytechnical University in 2026 through the Strong Foundation Program.
+    - name: Peng Zhou
+      image: zhou-peng.jpg
+      role: "PhD Student · 2026 Intake"
+      summary: >-
+        Studies intelligent disturbance rejection and vision-based tracking and localization for UAVs in complex flight conditions.
+      bio: >-
+        From Dandong, Liaoning. He earned a BSc in marine technology from Dalian Ocean University in 2023 and a master's degree in engineering in aircraft design from Shenyang Aerospace University in 2026. He is pursuing a PhD in aeronautical and astronautical science and technology at Northwestern Polytechnical University. His work aims to improve disturbance rejection, localization accuracy, and dynamic flight performance.
+
+- title: "Master's Students"
+  members:
+    - name: Qi Yang
+      image: yang-qi.jpeg
+      role: "Master's Student · 2024 Intake"
+      summary: >-
+        Studies UAV swarm control and intelligent disturbance rejection for aircraft.
+      bio: >-
+        Earned a bachelor's degree in aircraft design and engineering from the School of Aeronautics at Northwestern Polytechnical University in 2024. He is pursuing a master's degree there in aeronautical and astronautical science and technology.
+    - name: Mengqi Zhou
+      image: zhou-mengqi.png
+      role: "Master's Student · 2024 Intake"
+      summary: >-
+        Studies intelligent fault-tolerant and disturbance-rejection control for VTOL aircraft, flight dynamics modeling and simulation, and modeling and control of UAV payload transport systems.
+      bio: >-
+        She is a member of the Communist Party of China. She completed her undergraduate studies and is pursuing graduate studies in aeronautical and astronautical science and technology at the School of Aeronautics, Northwestern Polytechnical University. She has published or submitted seven international journal and conference papers and has received the BYD Scholarship, the CATIC Scholarship, and a first-class university scholarship.
+    - name: Yongze Li
+      image: li-yongze.jpeg
+      role: "Master's Student · 2025 Intake"
+      summary: >-
+        Studies flight control, control and payload release for UAVs carrying suspended loads, and cooperative transport of suspended loads by multiple UAVs.
+      bio: >-
+        Earned a bachelor's degree in aerospace engineering from Northwestern Polytechnical University in 2025. He is pursuing a master's degree in aeronautical and astronautical science and technology at the university's School of Aeronautics.
+    - name: Jiashuo Liang
+      image: liang-jiashuo.jpeg
+      role: "Master's Student · 2025 Intake"
+      summary: >-
+        Studies cooperative guidance for multiple UAVs and sliding-mode guidance for UAVs.
+      bio: >-
+        Earned a bachelor's degree in aircraft control and information engineering from Northwestern Polytechnical University in 2024. He is pursuing a master's degree there in aeronautical and astronautical science and technology.
+    - name: Ruirui Zhang
+      image: zhang-ruorui.jpeg
+      role: "Master's Student · 2025 Intake"
+      summary: >-
+        Studies advanced control theory and implementation for multi-UAV systems, including formation control, prescribed performance control, and event-triggered control.
+      bio: >-
+        Earned a bachelor's degree in engineering in automation from the School of Electronics and Control Engineering at Chang'an University in 2025. She is pursuing a master's degree in control engineering at the School of Aeronautics, Northwestern Polytechnical University.
+    - name: Bufan Chang
+      image: chang-bufan.jpeg
+      role: "Master's Student · 2026 Intake"
+      summary: >-
+        Studies cooperative guidance and control for cross-domain uncrewed systems.
+    - name: Yiyan Feng
+      image: feng-yifei.jpeg
+      role: "Master's Student · 2026 Intake"
+      summary: >-
+        Studies intelligent control for tiltrotor aircraft.
+    - name: Chengning Zhang
+      image: zhang-chengning.png
+      role: "Master's Student · 2026 Intake"
+      summary: >-
+        Studies intelligent flight dynamics modeling and control for VTOL aircraft.

@@ -2,6 +2,7 @@
 layout: page
 title: 科研项目
 permalink: /projects/
+translation: /en/projects/
 description: 实验室承担及参与的科研项目。
 nav: true
 nav_order: 2
@@ -9,7 +10,8 @@ display_categories: false
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+{% include lab-language.liquid lang='en' %}
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

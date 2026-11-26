@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.liquid %}
+    <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" hreflang="zh-CN" href="{{ page.translation | absolute_url }}">
+  </head>
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <header>
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" aria-label="Main navigation">
+        <div class="container">
+          {% unless page.permalink == '/en/' %}
+            <a class="navbar-brand title font-weight-lighter" href="{{ '/en/' | relative_url }}">VECTOR Lab</a>
+          {% endunless %}
+          <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav">
+            <ul class="navbar-nav navbar-menu-list flex-nowrap">
+              {% assign english_nav = site.pages | where_exp: 'item', 'item.lab_nav_order != nil' | sort: 'lab_nav_order' %}
+              {% for item in english_nav %}
+                {% assign active = false %}
+                {% if page.url == item.url or page.lab_nav_parent == item.permalink %}
+                  {% assign active = true %}
+                {% endif %}
+                <li class="nav-item{% if active %} active{% endif %}">
+                  <a class="nav-link" href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+                </li>
+              {% endfor %}
+              {% if site.enable_darkmode %}
+                <li class="toggle-container">
+                  <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme">
+                    <i class="fa-half-sun-moon" id="light-toggle-system"></i>
+                    <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
+                    <i class="fa-solid fa-sun" id="light-toggle-light"></i>
+                  </button>
+                </li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+      </nav>
+      {% if site.enable_progressbar %}
+        <progress id="progress" value="0" aria-label="Reading progress"></progress>
+      {% endif %}
+    </header>
+    <main class="container mt-5">
+      {% include lab-language.liquid lang='zh-CN' %}
+      {% if page.permalink == '/en/' %}
+        {{ content }}
+      {% else %}
+        <div class="post">
+          <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <p class="post-description">{{ page.description }}</p>
+          </header>
+          <article>{{ content }}</article>
+        </div>
+      {% endif %}
+    </main>
+    <footer class="{% if site.footer_fixed %}fixed-bottom{% else %}sticky-bottom mt-5{% endif %}">
+      <div class="container mt-0">
+        &copy; {{ site.time | date: '%Y' }} VECTOR Lab · School of Aeronautics, Northwestern Polytechnical University
+      </div>
+    </footer>
+    {% include scripts.liquid %}
+  </body>
+</html>

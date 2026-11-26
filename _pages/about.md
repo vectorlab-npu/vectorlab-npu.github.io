@@ -2,6 +2,7 @@
 layout: default
 title: 首页
 permalink: /
+translation: /en/
 profile: false
 selected_papers: false
 social: false
@@ -14,6 +15,8 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
+
+{% include lab-language.liquid lang='en' %}
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.75rem; margin: 0.5rem 0 2.25rem;">
   <div style="flex: 0 1 220px; max-width: 220px; padding: 0.5rem; background: #ffffff; border-radius: 14px;">
